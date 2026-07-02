@@ -286,7 +286,14 @@ This project is licensed under the MIT License. See the root [LICENSE](LICENSE) 
 ---
 
 <div align="center">
+Built by Gaurav Soni · Issues and PRs welcome.
 
-Built by [@gauravsoni02](https://github.com/gauravsoni02) · Issues and PRs welcome.
-
+<p>
+  <a href="https://github.com/gauravsoni02">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-gauravsoni02-181717?logo=github&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/gauravsoni02/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Gaurav%20Soni-0A66C2?logo=linkedin&logoColor=white">
+  </a>
+</p>
 </div>
