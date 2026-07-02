@@ -1,0 +1,58 @@
+[
+  {
+    "subject": "Your invoice #4821 is due",
+    "sender": "billing@acme.com",
+    "body": "Hi, your invoice #4821 for $1,200 is due on the 15th. Please pay via the portal.",
+    "expected_category": "finance",
+    "expect_task": true
+  },
+  {
+    "subject": "Can we meet next week?",
+    "sender": "priya@example.com",
+    "body": "Hi, could we find 30 minutes next week to discuss the roadmap? Let me know what works.",
+    "expected_category": "meeting",
+    "expect_task": true
+  },
+  {
+    "subject": "50% off all courses - today only!",
+    "sender": "deals@udemy.com",
+    "body": "Flash sale! Get 50% off every course. Offer ends at midnight. Shop now.",
+    "expected_category": "promotion",
+    "expect_task": false
+  },
+  {
+    "subject": "Weekly newsletter: 5 AI trends",
+    "sender": "news@techdigest.com",
+    "body": "This week in AI: agents, RAG, evals, and more. Read the full roundup on our site.",
+    "expected_category": "newsletter",
+    "expect_task": false
+  },
+  {
+    "subject": "URGENT: production is down",
+    "sender": "oncall@company.com",
+    "body": "The payments service is returning 500s in production. We need someone to look immediately.",
+    "expected_category": "urgent",
+    "expect_task": true
+  },
+  {
+    "subject": "Lunch on Saturday?",
+    "sender": "mom@family.com",
+    "body": "Hi honey, are you free for lunch this Saturday? Let me know. Love, Mom.",
+    "expected_category": "personal",
+    "expect_task": false
+  },
+  {
+    "subject": "Your package has shipped",
+    "sender": "no-reply@shop.com",
+    "body": "Your order #99213 has shipped and will arrive Thursday. Track it here.",
+    "expected_category": "notification",
+    "expect_task": false
+  },
+  {
+    "subject": "Q3 planning doc for review",
+    "sender": "manager@company.com",
+    "body": "Please review the attached Q3 planning doc and add your comments by Friday.",
+    "expected_category": "work",
+    "expect_task": true
+  }
+]

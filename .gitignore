@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+*.pem
+*.key
+.aegis_tokens.json
+.aegis_tokens.json.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml

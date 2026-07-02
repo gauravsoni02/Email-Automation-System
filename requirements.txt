@@ -1,0 +1,31 @@
+# Aegis Mail AI — Python dependencies
+# Phase 0 needs: FastAPI + config + the Grok (OpenAI-compatible) client.
+# Later-phase deps are listed but commented until their phase builds them.
+
+# --- Core (Phase 0) ---
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+openai>=1.30            # OpenAI-compatible SDK, pointed at xAI (Grok)
+requests>=2.32          # used by the Streamlit frontend
+streamlit>=1.36
+
+# --- Auth & Google (Phase 1) ---
+google-auth>=2.30
+google-auth-oauthlib>=1.2
+google-api-python-client>=2.130
+cryptography>=42        # Fernet token encryption at rest
+
+# --- Database / search (Phase 2-3) ---
+psycopg[binary]>=3.1
+psycopg_pool>=3.2
+pgvector>=0.3
+
+# --- Agents (Phase 4+) ---
+langgraph>=1.0
+langgraph-checkpoint-postgres>=2.0
+
+# --- Scheduler (Phase 7) ---
+apscheduler>=3.10
