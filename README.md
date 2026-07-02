@@ -112,12 +112,12 @@ streamlit run frontend/app.py
 ## Verify Phase 0 acceptance
 
 1. **App boots + health endpoint responds:**
-   ```bash
-   uvicorn backend.main:app --reload
-   # then:
-   curl http://localhost:8000/health
-   ```
-   Expect `{"status": "ok", ...}` including whether the LLM/DB/OAuth are configured.
+  ```bash
+  uvicorn backend.main:app --reload
+  # then:
+  curl http://localhost:8000/health
+  ```
+  Expect `{"status": "ok", ...}` including whether the LLM/DB/OAuth are configured.
 
 2. **A scripted `LLMClient` call returns a completion:**
    ```bash
@@ -291,3 +291,7 @@ frontend/app.py      Streamlit thin UI
 scripts/test_llm.py  Phase 0 LLM acceptance check
 evals/               eval harness (Phase 8)
 ```
+
+## License
+
+This project is licensed under the MIT License. See the root [LICENSE](LICENSE) file for the full text.
